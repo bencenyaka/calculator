@@ -7,12 +7,12 @@
 
 body{
     height: 100vh;
-    background: linear-gradient(#f9544c, #090c31);
+    background: linear-gradient(#35a7ca, #ff3636);
 }
 
 .calculator{
     width: 400px;
-    background-color: #15173c;
+    background-color: #163672;
     padding: 50px 30px;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -34,6 +34,8 @@ body{
     background-color: transparent;
     color: #ffff;
     font-size: 35px;
+    box-shadow: 0 5px 20px #000d2e;
+    border-radius: 10px;
 }
 
 .display input::placeholder{
@@ -55,6 +57,7 @@ body{
     color: #ffff;
     cursor: pointer;
     border-radius: 5px;
+    box-shadow: 0 4px 8px #000d2e;
 }
 
 .buttons input[type="button"]:hover{
@@ -63,7 +66,7 @@ body{
 
 input[type="button"]#equal{
     grid-row: span 2;
-    background-color: #f9544c;
+    background-color: #ff3636;
 }
 
 input[type="button"][value="0"]{
